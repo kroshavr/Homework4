@@ -19,6 +19,19 @@ public class Main {
         if (age2 >= 24) {
             System.out.println("Человек работает");
         }
-
+        //Задание 3
+        int people = 101;
+        int capacity = 102;
+        int seatPlace = 60;
+        int standingPlace = capacity - seatPlace;
+        if (people < 60) {
+            System.out.println("В вагоне есть сидячие и стоячие места");
+        }
+        if (people < 102) {
+            System.out.println("В вагоне есть стоячие места");
+        }
+        if (people >=102) {
+            System.out.println("В вагоне нет мест");
+        }
     }
 }
